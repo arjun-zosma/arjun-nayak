@@ -13,14 +13,14 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: {
     template: '%s — Arjun Nayak',
-    default: 'Arjun Nayak — Software Engineer',
+    default: 'Arjun Nayak — Founder & CEO of Zosma AI',
   },
   description:
-    'Personal website of Arjun Nayak, a software engineer building modern web applications.',
+    'Founder & CEO of Zosma AI. Building AI agent systems and open-source agentic tools that automate real workflows. Based in Mumbai, India.',
   openGraph: {
-    title: 'Arjun Nayak — Software Engineer',
+    title: 'Arjun Nayak — Founder & CEO of Zosma AI',
     description:
-      'Personal website of Arjun Nayak, a software engineer building modern web applications.',
+      'Founder & CEO of Zosma AI. Building AI agent systems and open-source agentic tools that automate real workflows.',
     type: 'website',
     locale: 'en_US',
     siteName: 'Arjun Nayak',
