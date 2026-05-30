@@ -51,7 +51,7 @@ published: true
 ---
 ```
 
-The content is parsed with `gray-matter` and rendered with `next-mdx-remote`, giving us syntax highlighting and full Markdown support without a database.
+The content is parsed with `gray-matter` and rendered with `react-markdown`, giving us syntax highlighting and full Markdown support without a database.
 
 ### Performance Benefits
 
