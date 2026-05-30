@@ -1,0 +1,5 @@
+{
+  "local_only": true,
+  "data_dir": ".lb",
+  "min_cli_version": "v16"
+}
