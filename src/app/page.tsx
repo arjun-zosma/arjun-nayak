@@ -3,13 +3,13 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Arjun Nayak — Software Engineer',
+  title: 'Arjun Nayak — Founder & CEO of Zosma AI',
   description:
-    'Personal website of Arjun Nayak, a software engineer building modern web applications with Next.js, TypeScript, and Tailwind CSS.',
+    'Founder & CEO of Zosma AI. Building AI agent systems and agentic harnesses that automate real workflows. Open-source at GitHub. Writing about AI agents on DEV.to.',
   openGraph: {
-    title: 'Arjun Nayak — Software Engineer',
+    title: 'Arjun Nayak — Founder & CEO of Zosma AI',
     description:
-      'Personal website of Arjun Nayak, a software engineer building modern web applications.',
+      'Founder & CEO of Zosma AI. Building AI agent systems and agentic harnesses that automate real workflows.',
   },
 }
 
@@ -24,10 +24,18 @@ export default function HomePage() {
             <span className="text-blue-600">Arjun Nayak</span>
           </h1>
           <p className="mt-4 text-lg text-gray-600">
-            Software engineer passionate about building fast, accessible, and
-            delightful web experiences. I work with modern technologies like
-            Next.js, TypeScript, and Tailwind CSS to create products that make
-            a difference.
+            Founder &amp; CEO of Zosma AI. I build AI agent systems and
+            agentic harnesses that automate real workflows — not demos, not
+            slides, just software that ships.
+          </p>
+          <p className="mt-3 text-lg text-gray-600">
+            Previously co-founded Mavonic Technology (acquired 2025). Over 7
+            years building full-stack systems, developer tools, and AI-native
+            products.
+          </p>
+          <p className="mt-3 text-lg text-gray-600">
+            Open-source at GitHub. Writing about AI agents on DEV.to. Based in
+            Mumbai, India.
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:justify-center md:justify-start">
             <Link

@@ -5,11 +5,11 @@ import ProjectCard from '../../components/ProjectCard'
 export const metadata: Metadata = {
   title: 'Projects',
   description:
-    'Explore projects built by Arjun Nayak — full-stack applications, open-source contributions, and experimental tools.',
+    'AI agent systems, open-source tools, and agentic harnesses built by Arjun Nayak — Founder & CEO of Zosma AI.',
   openGraph: {
     title: 'Projects — Arjun Nayak',
     description:
-      'Explore projects built by Arjun Nayak.',
+      'AI agent systems, open-source tools, and agentic harnesses built by Arjun Nayak.',
   },
 }
 
@@ -20,7 +20,7 @@ export default function ProjectsPage() {
     <div className="mx-auto max-w-5xl px-4 py-12 sm:px-6 lg:py-16">
       <h1 className="text-3xl font-bold text-gray-900 sm:text-4xl">Projects</h1>
       <p className="mt-2 text-gray-600">
-        Things I&apos;ve built and contributed to.
+        AI agent systems, open-source tools, and agentic harnesses I&apos;ve built.
       </p>
 
       {projects.length === 0 ? (

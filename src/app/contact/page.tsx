@@ -4,11 +4,11 @@ import ContactForm from '../../components/ContactForm'
 export const metadata: Metadata = {
   title: 'Contact',
   description:
-    'Get in touch with Arjun Nayak. Send a message using the contact form.',
+    'Get in touch with Arjun Nayak, Founder & CEO of Zosma AI. Send a message using the contact form.',
   openGraph: {
     title: 'Contact — Arjun Nayak',
     description:
-      'Get in touch with Arjun Nayak.',
+      'Get in touch with Arjun Nayak, Founder & CEO of Zosma AI.',
   },
 }
 
