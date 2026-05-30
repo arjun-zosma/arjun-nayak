@@ -29,16 +29,7 @@
   "tdd": {
     "phase": "idle",
     "testFiles": [],
-    "sourceFiles": [
-      "/home/ubuntu/code/arjun-zosma/arjun-nayak/src/app/page.tsx",
-      "/home/ubuntu/code/arjun-zosma/arjun-nayak/src/app/layout.tsx",
-      "/home/ubuntu/code/arjun-zosma/arjun-nayak/src/components/Footer.tsx",
-      "/home/ubuntu/code/arjun-zosma/arjun-nayak/src/lib/email.ts",
-      "/home/ubuntu/code/arjun-zosma/arjun-nayak/src/components/ProjectCard.tsx",
-      "/home/ubuntu/code/arjun-zosma/arjun-nayak/src/app/projects/page.tsx",
-      "/home/ubuntu/code/arjun-zosma/arjun-nayak/src/app/blog/page.tsx",
-      "/home/ubuntu/code/arjun-zosma/arjun-nayak/src/app/contact/page.tsx"
-    ],
+    "sourceFiles": [],
     "redVerificationPending": false
   },
   "debug": {
