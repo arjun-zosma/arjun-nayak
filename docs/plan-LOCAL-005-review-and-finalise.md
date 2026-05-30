@@ -1,19 +1,19 @@
 # Implementation Plan: Review & Finalise Personal Website (LOCAL-005)
 
 > **Task:** Review PR #2, verify all LOCAL-005 changes, and finalise the personal website pipeline.
-> **Spec:** `docs/spec-LOCAL-005.md`
-> **Branch:** `zocode/mprrajm3`
+> **Spec:** `docs/spec-LOCAL-005-review.md`
+> **Branch:** `zocode/mprrfn6o`
 > **Status:** v1 — plan phase
 
 ---
 
 ## Summary
 
-This plan covers the review, verification, merge, and closure of the LOCAL-005 website finalisation task. The branch `zocode/mprrajm3` already incorporates both the PR #2 review feedback and the LOCAL-005 content updates. The work ahead is:
+This plan covers the review, verification, merge, and closure of the LOCAL-005 website finalisation task. The branch `zocode/mprrfn6o` already incorporates both the PR #2 review feedback and the LOCAL-005 content updates. The work ahead is:
 
 1. Document the verification that all changes are correct
 2. Regenerate the sitemap
-3. Merge `zocode/mprrajm3` → `main` via a combined PR
+3. Merge `zocode/mprrfn6o` → `main` via a combined PR
 4. Close the existing PRs (#2, #3) in favour of the combined PR
 5. Update the deployment scripts and verify the production deploy
 
@@ -48,7 +48,7 @@ This plan covers the review, verification, merge, and closure of the LOCAL-005 w
 
 | Metric | Value |
 |--------|-------|
-| Branch | `zocode/mprrajm3` |
+| Branch | `zocode/mprrfn6o` |
 | Commits ahead of `main` | 9 |
 | Commits behind `main` | 1 (initial merged PR) |
 | Merge conflicts with `main` | None |
@@ -115,16 +115,16 @@ npm run build                        # Rebuild after rebase
 
 ### Step 4: Create Combined Pull Request
 
-**What:** Push the rebased branch and create a new combined PR from `zocode/mprrajm3` → `main`, superseding both PR #2 and PR #3.
+**What:** Push the rebased branch and create a new combined PR from `zocode/mprrfn6o` → `main`, superseding both PR #2 and PR #3.
 
 **Files to modify:** None (GitHub operations)
 
 **Commands:**
 ```bash
-git push origin zocode/mprrajm3 --force-with-lease
+git push origin zocode/mprrfn6o --force-with-lease
 gh pr create \
   --base main \
-  --head zocode/mprrajm3 \
+  --head zocode/mprrfn6o \
   --title "feat(LOCAL-005): review PR #2 feedback, finalise website with accurate content" \
   --body "## Summary
 
@@ -181,8 +181,8 @@ git pull origin main
 
 **Commands:**
 ```bash
-gh pr close 2 --comment "Superseded by combined PR from zocode/mprrajm3 → main"
-gh pr close 3 --comment "Superseded by combined PR from zocode/mprrajm3 → main"
+gh pr close 2 --comment "Superseded by combined PR from zocode/mprrfn6o → main"
+gh pr close 3 --comment "Superseded by combined PR from zocode/mprrfn6o → main"
 ```
 
 **Depends on:** Step 5 (merge complete)
