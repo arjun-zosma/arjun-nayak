@@ -5,11 +5,11 @@ import BlogPostPreview from '../../components/BlogPostPreview'
 export const metadata: Metadata = {
   title: 'Blog',
   description:
-    'Read articles by Arjun Nayak on software engineering, web development, and technology.',
+    'Read articles by Arjun Nayak on AI agents, agentic systems, open-source, and building software that ships.',
   openGraph: {
     title: 'Blog — Arjun Nayak',
     description:
-      'Read articles by Arjun Nayak on software engineering and web development.',
+      'Read articles by Arjun Nayak on AI agents, agentic systems, and open-source tooling.',
   },
 }
 
@@ -22,7 +22,8 @@ export default function BlogPage() {
     <div className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:py-16">
       <h1 className="text-3xl font-bold text-gray-900 sm:text-4xl">Blog</h1>
       <p className="mt-2 text-gray-600">
-        Thoughts on software engineering, web development, and technology.
+        Thoughts on AI agents, agentic systems, open-source, and building
+        software that ships.
       </p>
 
       {posts.length === 0 ? (

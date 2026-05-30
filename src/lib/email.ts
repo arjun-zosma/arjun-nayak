@@ -8,7 +8,7 @@ export async function sendContactEmail(data: ContactFormData): Promise<void> {
     throw new Error('RESEND_API_KEY is not configured')
   }
 
-  const contactEmail = process.env.CONTACT_EMAIL || 'hello@arjunnayak.dev'
+  const contactEmail = process.env.CONTACT_EMAIL || 'info@zosma.ai'
   const resend = new Resend(apiKey)
 
   const { error } = await resend.emails.send({

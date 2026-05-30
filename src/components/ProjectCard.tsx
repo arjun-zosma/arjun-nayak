@@ -13,6 +13,15 @@ const techColors: Record<string, string> = {
   'tailwind css': 'bg-teal-100 text-teal-800',
   'postgresql': 'bg-purple-100 text-purple-800',
   'stripe': 'bg-pink-100 text-pink-800',
+  'dhara': 'bg-orange-100 text-orange-800',
+  'electron': 'bg-sky-100 text-sky-800',
+  'playwright': 'bg-green-100 text-green-800',
+  'protocol buffers': 'bg-yellow-100 text-yellow-800',
+  'vector db': 'bg-violet-100 text-violet-800',
+  'llms': 'bg-rose-100 text-rose-800',
+  'llm': 'bg-rose-100 text-rose-800',
+  'cli': 'bg-slate-100 text-slate-800',
+  'pi sdk': 'bg-emerald-100 text-emerald-800',
 }
 
 function getTechBadgeColor(tech: string): string {

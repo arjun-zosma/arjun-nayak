@@ -9,7 +9,7 @@ export default function Footer() {
         </p>
         <div className="flex items-center gap-6">
           <Link
-            href="https://github.com/arjunnayak"
+            href="https://github.com/arjun-zosma"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm text-gray-500 transition-colors hover:text-gray-900"
@@ -17,20 +17,36 @@ export default function Footer() {
             GitHub
           </Link>
           <Link
-            href="https://twitter.com/arjunnayak"
+            href="https://twitter.com/zosmaai"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm text-gray-500 transition-colors hover:text-gray-900"
           >
-            Twitter
+            Twitter / X
           </Link>
           <Link
-            href="https://linkedin.com/in/arjunnayak"
+            href="https://linkedin.com/in/arjun-nayak-98780959"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm text-gray-500 transition-colors hover:text-gray-900"
           >
             LinkedIn
+          </Link>
+          <Link
+            href="https://dev.to/arjun-zosma"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-sm text-gray-500 transition-colors hover:text-gray-900"
+          >
+            DEV.to
+          </Link>
+          <Link
+            href="https://www.zosma.ai"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-sm font-medium text-blue-600 transition-colors hover:text-blue-800"
+          >
+            Zosma AI
           </Link>
         </div>
       </div>
